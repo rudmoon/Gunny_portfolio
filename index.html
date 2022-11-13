@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gunny's PortFolio</title>
+    <link href="./image/favicon.png" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hi+Melody&family=Open+Sans:wght@300;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4a51d562a2.js" crossorigin="anonymous"></script>
+    <script src="./main.js" defer></script>
+</head>
+<body id="body">
+
+    <!-- Navbar part -->
+        <nav id="navbar">
+            <div class="navbar__left">
+                <i class="fa-solid fa-mug-saucer"></i>
+                <a href="#">Gunny</a>
+            </div>
+            <ul class="navbar__right hide">
+                <li class="right__menu active" data-link="#header">Home</li>
+                <li class="right__menu" data-link="#about-me">About</li>
+                <li class="right__menu" data-link="#skills">Skills</li>
+                <li class="right__menu" data-link="#my-work">My work</li>
+                <li class="right__menu" data-link="#testimonials">Testimonial</li>
+                <li class="right__menu" data-link="#footer">Contact</li>
+            </ul>
+            <button class="navbar__toggle-btn">
+                <i class="fa-sharp fa-solid fa-bars"></i>
+            </button>
+        </nav>
+    
+        <!-- Header part -->
+        <header id="header">
+            <img class="header__avatar1" src="./image/myFace.jpg" alt="myFace">
+            <h1 class="header__greeting">Hello,</br>I'm Gunny Coder</h1>
+            <h2 class="header__livein">A Software Engineer currently residing in Busan, Korea.</h2>
+            <button class="header__button" data-link="#footer">CONTACE ME</button>
+        </header>
+    
+    
+
+    <!-- About-me part -->
+    <section id="about-me" class="container__for-width container__about-me">
+        <h1 class=about-me__title>About me</h1>
+        <p class="about-me__description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam id incidunt placeat excepturi recusandae in cumque dolores eos eaque? Odit dicta illo optio nemo maiores mollitia doloremque facilis molestias velit?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore eligendi nihil porro illo tenetur vero minima iure magnam, repellendus et quis quisquam saepe officiis? Distinctio eum exercitationem ullam suscipit porro!
+        </p>
+        <div class="about-me__achivements">
+            <div class="achivement">
+                <div class="achivement--circle">
+                    <i class="fa-brands fa-html5"></i>
+                </div>
+                <h2 class="achivement--title">HTML</h2>
+                <p class="achivement--content">HyperText Markup Language</p>
+            </div>
+            <div class="achivement">
+                <div class="achivement--circle">
+                    <i class="fa-brands fa-css3-alt"></i>
+                </div>
+                <h2 class="achivement--title">CSS</h2>
+                <p class="achivement--content">Cascading Style Sheets</p>
+            </div>
+            <div class="achivement">
+                <div class="achivement--circle">
+                    <i class="fa-brands fa-square-js"></i>
+                </div>
+                <h2 class="achivement--title">JS</h2>
+                <p class="achivement--content">JavaScript</p>
+            </div>
+        </div>
+        <div class="about-me__career">
+            <i class="fa-brands fa-apple"></i>
+            <div class="career--content">
+                <p>Currently Working at Apple as Software Engineer</p>
+                <p>2019 Sept - Until Now</p>
+            </div>
+        </div>
+        <div class="about-me__career">
+            <i class="fa-brands fa-apple"></i>
+            <div class="career--content">
+                <p>Currently Working at Apple as Software Engineer</p>
+                <p>2019 Sept - Until Now</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills part -->
+    <section id="skills">
+        <div class="container__for-width container__skills">
+            <h1 class="skills__title">Skills</h1>
+            <h2 class="skills__sub-title">Skills & Attributes</h2>
+            <p class="skills__description">
+                Experience with all phases of the software life-cycle. Passion for learning new technologies. Capable of working within a team environment and independently. Ability to plan and time schedule, work under strict time pressure and adapt quickly when needed.
+            </p>
+            <div class="skills__collection">
+                <div class="collection--left">
+                    <h3 class="left--title">Skills</h3>
+                    <div class="left__subject-percent">
+                        <span>HTML</span>
+                        <span>100%</span>
+                    </div>
+                    <div class="left__empty-box">
+                        <div class="left__line-box"></div>
+                    </div>
+                    <div class="left__subject-percent">
+                        <span>CSS</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="left__empty-box">
+                        <div class="left__line-box"></div>
+                    </div>
+                    <div class="left__subject-percent">
+                        <span>JS</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="left__empty-box">
+                        <div class="left__line-box"></div>
+                    </div>
+                    <div class="left__subject-percent">
+                        <span>React</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="left__empty-box">
+                        <div class="left__line-box"></div>
+                    </div>
+                    <div class="left__subject-percent">
+                        <span>NodeJS</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="left__empty-box">
+                        <div class="left__line-box"></div>
+                    </div>
+                </div>
+                <div class="collection--right">
+                    <ul class="right--tools">
+                        <li class="skills--title"><h3>Tools</h3></li>
+                        <li>Andoroid development tools</li>
+                        <li>iOS development tools</li>
+                        <li>Sublime Text with Plug-ings</li>
+                        <li>Visual Studio Code</li>
+                        <li>Team Foundation</li>
+                        <li>Adobe Programs</li>
+                        <li>Sketch Apps</li>
+                    </ul>
+                    <ul class="right--etc">
+                        <li class="skills--title"><h3>Etc</h3></li>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                    </ul>
+                    </div>
+            </div>
+        </div>   
+    </section>
+
+    <!-- Work part -->
+    <section id="my-work">
+        <div class="container__for-width container__my-work">
+            <h1 class="my-work__title">My work</h1>
+            <h3 class="my-work__subtitle">Projects</h3>
+            <div class="my-work__buttons">
+                <button class="button--title active" data-type="all">All<div>8</div></button>
+                <button class="button--title" data-type="front">Front-end<div>6</div></button>
+                <button class="button--title" data-type="back">Back-end<div>1</div></button>
+                <button class="button--title" data-type="mobile">Mobile<div>1</div></button>
+            </div>
+            <ul class="my-work__images">
+                <li class="image__box" data-type="front"><img src="./image/favicon.png" alt="" class="image__box--image all">front</li>
+                <li class="image__box" data-type="front"><img src="./image/favicon.png" alt="" class="image__box--image all">front</li>
+                <li class="image__box" data-type="front"><img src="./image/favicon.png" alt="" class="image__box--image all">front</li>
+                <li class="image__box" data-type="front"><img src="./image/favicon.png" alt="" class="image__box--image all">front</li>
+                <li class="image__box" data-type="front"><img src="./image/favicon.png" alt="" class="image__box--image all">front</li>
+                <li class="image__box" data-type="front"><img src="./image/favicon.png" alt="" class="image__box--image all">front</li>
+                <li class="image__box" data-type="back"><img src="./image/favicon.png" alt="" class="image__box--image all">back</li>
+                <li class="image__box" data-type="mobile"><img src="./image/favicon.png" alt="" class="image__box--image all">mobile</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Testimonials part -->
+    <section id="testimonials">
+        <div class="container__for-width container__testimonials">
+            <h1 class="testimonials__title">Testimonials</h1>
+            <h3 class="testimonials__subtitle">See what they say about me</h3>
+            <div class="testimonials__box">
+                <img src="./image/myFace.jpg" alt="" class="box__avatar">
+                <div class="box__saying"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias recusandae sed ipsa iure molestias fugiat veniam nam inventore, animi beatae id nesciunt adipisci laudantium velit, harum dolores minima autem. Qui Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi exercitationem est nemo laudantium rerum excepturi, debitis fugiat. Ipsam provident, quo fugiat nam exercitationem repellat voluptate architecto! Odit, totam doloribus.</p><div><a href="#">Park</a><span>Samsung</span></div></div>
+            </div>
+            <div class="testimonials__box">
+                <div class="box__saying"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias recusandae sed ipsa iure molestias fugiat veniam nam inventore, animi beatae id nesciunt adipisci laudantium velit, harum dolores minima autem. Qui Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi exercitationem est nemo laudantium rerum excepturi, debitis fugiat. Ipsam provident, quo fugiat nam exercitationem repellat voluptate architecto! Odit, totam doloribus.</p><div><a href="#">Park</a><span>Samsung</span></div></div>
+                <img src="./image/myFace.jpg" alt="" class="box__avatar">
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <h1 class="footer__title">Let's talk</h1>
+        <h2 class="footer__email">gunsungunsun@naver.com</h2>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <p class="footer__rights">2022 Gunny Coding - All rights reserved</p>
+    </footer>
+
+    <button id="for-arrow-div">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    
+</body>
+</html>
