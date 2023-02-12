@@ -248,10 +248,10 @@ h2 {
     width: 240px;
 }
 .left__empty-box:nth-child(9) div{
-    width: 210px;
+    width: 150px;
 }
 .left__empty-box:nth-child(11) div{
-    width: 180px;
+    width: 30px;
 }
 .right--tools {
     background-color: var(--gray);
